@@ -203,10 +203,35 @@ border: none;
     border-radius: 10px;
     padding: 10px;
 }
-.home{
-    width: 1500px;
-    height: 720px;
-    background-image: url(./png/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+.arxiv{
+    background-color: #ECE7E4;
+}
+.arxiv__wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.arxiv__text{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase
+}
+.arxiv__title{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 64px;
+line-height: 70.4px;
+width: 417px;
+height: 212px;
+}
+.arxiv__text2{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+width: 509px;
+height: 120px;
 }
